@@ -85,7 +85,7 @@ export const Login = ({onPressBack}: {onPressBack: () => void}) => {
   }, [serviceError, serviceUrl, _])
 
   const onPressForgotPassword = () => {
-    setCurrentForm(Forms.ForgotPassword)
+    gotoForm(Forms.ForgotPassword)
   }
 
   let content = null
